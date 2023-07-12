@@ -5,7 +5,7 @@ import java.util.spi.AbstractResourceBundleProvider;
 
 public class Main
 {
-   static class A{
+  public static class A{
        public A(){}
 
        public String meth()
@@ -14,7 +14,7 @@ public class Main
        }
    }
 
-   static  class B extends A
+   public static  class B extends A
    {
 
        public String meth()
