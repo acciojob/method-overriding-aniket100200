@@ -14,11 +14,12 @@ public class Main
        }
    }
 
-   static  class B extends A{
-       @Override
+   static  class B extends A
+   {
+
        public String meth()
        {
-           super.meth();
+
            return "Method is overridden in Extendend class B";
        }
    }
@@ -27,6 +28,9 @@ public class Main
    {
        B obj=new B();
        obj.meth();
+
+       B obj1=new B();
+       obj1.meth();
 
    }
 }
